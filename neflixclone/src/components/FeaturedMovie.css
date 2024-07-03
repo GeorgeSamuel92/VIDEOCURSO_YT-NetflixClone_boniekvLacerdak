@@ -3,7 +3,7 @@
 }
 .featured--vertical {
     width: inherit;
-    height: 800px;
+    height: 700px;
     background: linear-gradient(to top, #111 10%, transparent 90%);
 }
 .featured--horizontal {
@@ -79,4 +79,28 @@ color: #46d369;
     margin-top: 15px;
     font-size: 18px;
     color: #999;
+}
+
+@media (max-width: 760px) {
+    .featured {
+        height: 80vh;
+    }
+    .feature--name {
+        font-size: 40px
+    }
+    .featured--info{
+        font-size: 16px;
+    }
+    .featured--description {
+        font-size: 14px;
+        max-width: 100%;
+        margin-right: 30px;
+    }
+    .featured--watchButton,
+    .featured--myListButton {
+        font-size: 16px;
+    }
+    .featured--genres {
+        font-size: 14px;
+    }
 }
